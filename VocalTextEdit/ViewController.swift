@@ -42,7 +42,5 @@ class ViewController: NSViewController, NSSpeechSynthesizerDelegate {
     @IBAction func stopButtonClicked(_ sender: NSButton){
         speechSynthesizer.stopSpeaking()
     }
-
-
 }
 
